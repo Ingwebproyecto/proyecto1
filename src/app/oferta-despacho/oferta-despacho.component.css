@@ -1,0 +1,42 @@
+#OfertaDespacho {
+  background: aqua;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+.navegacion {
+  background: #000000;
+  text-align: center;
+}
+.navegacion ul {
+  list-style: none;
+}
+.menu > li {
+  /*position: relative;*/
+  display: inline-block;
+}
+.menu > li > a {
+  display: block;
+  padding: 15px 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.menu li a:hover {
+  color: #37fcd1;
+  transition: all 0.3s;
+}
+/*Submenu*/
+.submenu {
+  position: absolute;
+  background: #000000;
+  display: none;
+}
+.submenu li a {
+  display: block;
+  padding: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.menu li:hover .submenu {
+  display: block;
+}
