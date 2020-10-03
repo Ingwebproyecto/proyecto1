@@ -1,0 +1,26 @@
+#FondoRegistro {
+  background-color: #D0D0D0;
+  margin: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid #000000;
+}
+#letraRegistro {
+  margin-left: 50px;
+  margin-top: 50px;
+  font-family: 'Secular One', sans-serif;
+}
+#Registro {
+  background-color: white;
+  margin: 2%;
+  padding: 10px;
+}
+.btn {
+  border: 3px solid #000000;
+  margin: 2%;
+  background: #000000;
+  color: #FFFFFF;
+}
+.btn:hover {
+  color: #00FFFF;
+}

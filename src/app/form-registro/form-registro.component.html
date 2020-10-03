@@ -1,0 +1,112 @@
+<head>
+    <title>¡Registrate en Bibidor!</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+</head>
+<body>
+    <app-oferta-despacho></app-oferta-despacho>
+    
+    <!--Registro-->
+    <div id="FondoRegistro">
+        <div id="letraRegistro">
+            <h1>Complete el siguiente formulario:</h1>
+        </div>
+        <div id="Registro">
+            <form>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationServer01">Nombre</label>
+                        <input type="text" class="form-control" id="validationServer01" value="" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationServer02">Apellido</label>
+                        <input type="text" class="form-control" id="validationServer02" aria-describedby="validationServer02Feedback" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="email">Correo</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="validationServer03Feedback" required>
+                        <div id="validationServer03Feedback" class="invalid-feedback">
+                            Por favor ingrese un correo valido.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationServer04">Dirección</label>
+                        <input type="text" class="form-control" id="validationServer03" aria-describedby="validationServer03Feedback" required>
+                        <div id="validationServer03Feedback" class="invalid-feedback">
+                            Por favor ingrese una dirección valida.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationServer05">Región</label>
+                        <select class="custom-select" id="validationServer04" aria-describedby="validationServer04Feedback" required>
+                            <option selected disabled value="">Elegir</option>
+                            <option>I Región: Tarapacá</option>
+                            <option>II Región: Antofagasta</option>
+                            <option>III Región: Atacama</option>
+                            <option>IV Región: Coquimbo</option>
+                            <option>V Región: Valparaíso</option>
+                            <option>VI Región: O'Higgins</option>
+                            <option>VII Región: Maule</option>
+                            <option>VIII Región: Biobío</option>
+                            <option>IX Región: La Araucanía</option>
+                            <option>X Región: Los lagos</option>
+                            <option>XI Región: Aysén</option>
+                            <option>XII Región: Magallanes</option>
+                            <option>Metropolitana</option>
+                            <option>XIV Región: Los Ríos</option>
+                            <option>XV Región: Arica y P.</option>
+                            <option>XVI Región: Ñuble</option>
+                        </select>
+                        <div id="validationServer04Feedback" class="invalid-feedback">
+                            Por favor seleccione la región donde vive.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationServer06">Código postal</label>
+                        <input type="text" class="form-control" id="validationServer05" aria-describedby="validationServer05Feedback" required>
+                        <div id="validationServer05Feedback" class="invalid-feedback">
+                            Por favor ingrese su código postal.
+                        </div>
+                    </div>
+                    <!--Cambio-->
+                    <div class="col-md-3 mb-3">
+                        <label for="inputPassword7">Contraseña</label>
+                        <input type="password" class="form-control" id="inputPassword6" aria-describedby="passwordHelpInline" required>
+                        <small id="passwordHelpInline" class="text-muted">
+                            Debe tener entre 6-14 caracteres.
+                        </small>
+                        <div id="validationServer05Feedback" class="invalid-feedback">
+                            Contraseña incorrecta, vuelva a introducir.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="inputPassword7">Vuelva a introducir su contraseña</label>
+                        <input type="password" class="form-control" id="inputPassword6" aria-describedby="passwordHelpInline" required>
+                        <div id="validationServer05Feedback" class="invalid-feedback">
+                            Las contraseñas no coinciden.
+                        </div>
+                    </div>
+                    <!--fin cambio-->
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck3" aria-describedby="invalidCheck3Feedback" required>
+                        <label class="form-check-label" for="invalidCheck3">
+                            Acepta los terminos y condiciones y la política de privacidad de acuerdo a la Ley n° 19.628.
+                        </label>
+                        <div  id="invalidCheck3Feedback" class="invalid-feedback">
+                            Debe aceptar para realizar el registro.
+                        </div>
+                    </div>
+                </div>
+                <button class="btn" type="submit">Registrarme</button>
+            </form>
+        </div>
+    </div>
+
+    <app-piepagina></app-piepagina>
+</body>

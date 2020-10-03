@@ -1,6 +1,27 @@
 #oferta {
-  background: #37fcd1;
-  background: linear-gradient(90deg, #37fcd1 0%, #d4fff6 35%, #f5fffd 100%);
+  background: #D0D0D0;
   margin: 0px 50px;
   padding: 0px;
+}
+.productos {
+  margin-top: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.titulo {
+  background: #000000;
+  color: #ffffff;
+  padding: 10px;
+}
+.card-deck {
+  padding: 20px;
+}
+.btn {
+  border: 2px solid #000000;
+  margin-left: 35%;
+  margin-top: 10px;
+}
+.btn:hover {
+  background-color: #000000;
+  color: #00FFFF;
 }
